@@ -1,0 +1,37 @@
+.font{
+    font-family: 'Courgette', cursive;
+}
+
+
+/* 
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0;  */
+  
+    /* Preserve aspet ratio */
+    /* min-width: 100%;
+    min-height: 100%;
+  } */
+  
+  /* body {
+    background: url("src\assets\img\background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+    
+} */
+
+
+
+.fullscreen-block{
+    background: #006699 url('src\assets\img\dawn.jpg') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }

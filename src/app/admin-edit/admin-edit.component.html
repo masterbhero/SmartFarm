@@ -1,0 +1,70 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Pattaya&display=swap" rel="stylesheet">
+<!------ Include the above in your HEAD tag ---------->
+
+<br><br>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card ">
+        <div style="text-align:center">
+          <div class="card-header bg-secondary text-white font" style="font-size: 30px;">แก้ User</div>
+        </div><br>
+
+        <div class="card-body ">
+            <form class="form-horizontal" method="post" action="#">
+              <div class="form-group row">
+                <label for="inputEmail" class="col-sm-3 col-form-label ">ชื่อ</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputName" value="{{user.Firstname}}">
+                </div>
+              </div><br>
+  
+              <div class="form-group row">
+                <label for="inputEmail" class="col-sm-3 col-form-label ">สกุล</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputLastname" value="{{user.Lastname}}">
+                </div>
+              </div><br>
+  
+              <div class="form-group row">
+                <label for="inputEmail" class="col-sm-3 col-form-label ">Email,username</label>
+                <div class="col-sm-9">
+                  <input type="@email" class="form-control" id="inputEmail" value="{{user.username}}">
+                </div>
+              </div><br>
+
+              <div class="form-group row">
+                <label for="inputEmail" class="col-sm-3 col-form-label ">Level</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputEmail" value="{{user.level}}">
+                </div>
+              </div><br>
+              <br>
+               
+              
+              <div class="row d-flex justify-content-center">
+                  <div class="col-md-3">
+                    <div class="form-group ">
+                      <button (click)="editdone()"  type="button" class="btn btn-success btn-lg btn-block login-button font">แก้ไข</button>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-group ">
+                      <button routerLink="/admin" type="button" class="btn btn-danger btn-lg btn-block login-button font">ยกเลิก</button>
+                    </div>
+                  </div>
+                </div>
+            </form>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+
+
+

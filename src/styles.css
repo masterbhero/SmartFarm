@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+ /* body { 
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    background-image: url("src\assets\img\background.jpg");
+    
+  }  */
+  
+  body { 
+    background: url("src\assets\img\background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  
+  .fonthead{
+    font-family: 'Merienda', cursive;
+    font-size: 70px;
+  } 
+
+.fontlogin{
+  font-family: 'Courgette', cursive;
+   
+
+} 
+.fontlogin1{
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+
+} 
+
+
+
+/* .fonttitle{
+  font-family: 'Pattaya', sans-serif;
+  font-family: 'Fredoka One', cursive;
+} */
+
+

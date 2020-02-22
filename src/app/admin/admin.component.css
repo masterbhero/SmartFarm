@@ -1,0 +1,11 @@
+.card {
+    width: cover;
+    height: cover;    
+    /* padding-top: 60px; */
+    background-color: light;
+    border: 1px solid cover;
+}
+.pading{
+    width: cover;
+    height: cover;   
+}
