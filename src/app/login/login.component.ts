@@ -19,15 +19,15 @@ export class LoginComponent implements OnInit {
 
   postUser(username: HTMLInputElement, password: HTMLInputElement) {
     this.postbody = {
-      "UserID": username.value,
-      "pass": password.value
+      "email": username.value,
+      "password": password.value
     }
-    this.http.post('https://smartflowfarm.xyz/api3000/user/login', this.postbody).subscribe(result => {
+    this.http.post('http://localhost:3000/user/login', this.postbody).subscribe(result => {
       const str = JSON.stringify(result);
       this.obj = JSON.parse(str);
 
       console.log(this.obj['status']);
-      if (this.obj['status'] == true) {
+      if (this.obj['status'] == "success") {
         this.router.navigate(['/plot'])
       }
 
