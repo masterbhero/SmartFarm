@@ -29,7 +29,7 @@
     "datatables.net-bs4": "^1.10.19",
     "datatables.net-dt": "^1.10.19",
     "fusioncharts": "^3.14.0-sr.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng-canvas-gauges": "^6.0.4",
     "rxjs": "~6.5.2",
     "sweetalert": "^2.1.2",
